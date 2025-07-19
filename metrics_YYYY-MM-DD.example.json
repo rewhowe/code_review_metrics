@@ -1,0 +1,111 @@
+{
+    "pull_request_target_start_date": "2024-01-08",
+    "activity_target_start_date": "2024-01-12",
+    "recorded_at": "2024-01-12T19:30:00+09:00",
+    "num_new_prs": 5,
+    "num_merged_prs": 6,
+    "member_info":
+    {
+        "rewhowe":
+        {
+            "num_prs_created": 2,
+            "num_prs_reviewed": 4,
+            "num_prs_approved": 4,
+            "num_comments": 0
+        },
+        "example.user":
+        {
+            "num_prs_created": 2,
+            "num_prs_reviewed": 2,
+            "num_prs_approved": 2,
+            "num_comments": 11
+        }
+    },
+    "merged_pr_info":
+    [
+        {
+            "repo": "example_repo",
+            "id": 1001,
+            "author": "rewhowe",
+            "time_to_merge_s": 1287489,
+            "from_ref": "feature/EXAMPLE-1001_example",
+            "to_ref": "develop",
+            "num_comments": 11,
+            "num_rescopes": 9,
+            "num_files_changed": 6,
+            "num_files_added": 0,
+            "num_files_modified": 6,
+            "num_files_deleted": 0
+        },
+        {
+            "repo": "example_repo",
+            "id": 1002,
+            "author": "rewhowe",
+            "time_to_merge_s": 169474,
+            "from_ref": "release/20240108_example",
+            "to_ref": "master",
+            "num_comments": 1,
+            "num_rescopes": 0,
+            "num_files_changed": 2,
+            "num_files_added": 0,
+            "num_files_modified": 2,
+            "num_files_deleted": 0
+        },
+        {
+            "repo": "example_repo",
+            "id": 1003,
+            "author": "example.user",
+            "time_to_merge_s": 1532723,
+            "from_ref": "feature/EXAMPLE-1003_example",
+            "to_ref": "feature/EXAMPLE-1001_example",
+            "num_comments": 0,
+            "num_rescopes": 0,
+            "num_files_changed": 8,
+            "num_files_added": 0,
+            "num_files_modified": 8,
+            "num_files_deleted": 0
+        },
+        {
+            "repo": "example_repo",
+            "id": 1004,
+            "author": "example.user",
+            "time_to_merge_s": 1190933,
+            "from_ref": "feature/EXAMPLE-1004_example",
+            "to_ref": "develop",
+            "num_comments": 6,
+            "num_rescopes": 0,
+            "num_files_changed": 4,
+            "num_files_added": 0,
+            "num_files_modified": 4,
+            "num_files_deleted": 0
+        },
+        {
+            "repo": "example_repo",
+            "id": 1005,
+            "author": "example.user",
+            "time_to_merge_s": 87546,
+            "from_ref": "feature/EXAMPLE-1005_example",
+            "to_ref": "develop",
+            "num_comments": 7,
+            "num_rescopes": 0,
+            "num_files_changed": 11,
+            "num_files_added": 0,
+            "num_files_modified": 11,
+            "num_files_deleted": 0
+        },
+        {
+            "repo": "example_repo",
+            "id": 1006,
+            "author": "example.user",
+            "time_to_merge_s": 251207,
+            "from_ref": "feature/EXAMPLE-1006_example",
+            "to_ref": "hotfix/20240109_example",
+            "num_comments": 4,
+            "num_rescopes": 0,
+            "num_files_changed": 2,
+            "num_files_added": 0,
+            "num_files_modified": 2,
+            "num_files_deleted": 0
+        }
+    ]
+}
