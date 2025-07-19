@@ -1,0 +1,7 @@
+base_url: https://example.com
+project: project_name
+repos:
+  - repo_name1
+  - repo_name2
+# just example token: echo hoge | md5 | base64
+token: YzU5NTQ4YzNjNTc2MjI4NDg2YTFmMDAzN2ViMTZhMWIK
