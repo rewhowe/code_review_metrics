@@ -1,0 +1,214 @@
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <title>Code Review Metrics</title>
+        <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          min-width: 50px;
+        }
+        .scoreboard-grid {
+          display: flex;
+          width: 100%;
+          justify-content: space-evenly;
+        }
+        .profile-pic {
+          border-radius: 50%;
+          width: 64px;
+          height: 64px;
+        }
+        </style>
+        </head>
+        <body>
+          <h1>Code Review Metrics</h1>
+          
+          <h2>Summary</h2>
+                  <p>Target pull requests updated after 2024-01-08</p>
+        <p>Target activities after 2024-01-12</p>
+        <p>Metrics recorded at 2024-01-12T19:30:00+09:00</p>
+        <table>
+          <tbody>
+            <tr><th>Total PRs Created</th><td>5</td></tr>
+            <tr><th>Total PRs Merged</th><td>6</td></tr>
+          </tbody>
+        </table>
+          <h2>Merged Pull Request Stats</h2>
+                  <p>Average time to merge: 8.72 days</p>
+        <p>※ Excludes outliers over 21 days</p>
+        <table>
+          <thead>
+            <th>Repo</th>
+            <th>ID</th>
+            <th colspan="2">Author</th>
+            <th>Time To Merge</th>
+            <th>From</th>
+            <th>To</th>
+            <th>Num Comments</th>
+            <th>Num Rescopes</th>
+            <th>Num Files Changed</th>
+            <th>Num Files Added</th>
+            <th>Num Files Modified</th>
+            <th>Num Files Deleted</th>
+          </thead>
+          <tbody>            <tr>
+              <td>example_repo</th>
+              <td>1001</th>
+              <td><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></th>
+              <td>rewhowe</th>
+              <td style="">14.9 days</th>
+              <td>feature/EXAMPLE-1001_example</th>
+              <td>develop</th>
+              <td>11</th>
+              <td style="">9</th>
+              <td>6</th>
+              <td>0</th>
+              <td>6</th>
+              <td>0</th>
+            </tr>            <tr>
+              <td>example_repo</th>
+              <td>1002</th>
+              <td><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></th>
+              <td>rewhowe</th>
+              <td style="background-color:#ffa">1.96 days</th>
+              <td>release/20240108_example</th>
+              <td>master</th>
+              <td>1</th>
+              <td style="background-color:#ffa">0</th>
+              <td>2</th>
+              <td>0</th>
+              <td>2</th>
+              <td>0</th>
+            </tr>            <tr>
+              <td>example_repo</th>
+              <td>1003</th>
+              <td><img class="profile-pic" src="https://placekittens.com/64/64"/></th>
+              <td>example.user</th>
+              <td style="">17.74 days</th>
+              <td>feature/EXAMPLE-1003_example</th>
+              <td>feature/EXAMPLE-1001_example</th>
+              <td>0</th>
+              <td style="background-color:#ffa">0</th>
+              <td>8</th>
+              <td>0</th>
+              <td>8</th>
+              <td>0</th>
+            </tr>            <tr>
+              <td>example_repo</th>
+              <td>1004</th>
+              <td><img class="profile-pic" src="https://placekittens.com/64/64"/></th>
+              <td>example.user</th>
+              <td style="">13.78 days</th>
+              <td>feature/EXAMPLE-1004_example</th>
+              <td>develop</th>
+              <td>6</th>
+              <td style="background-color:#ffa">0</th>
+              <td>4</th>
+              <td>0</th>
+              <td>4</th>
+              <td>0</th>
+            </tr>            <tr>
+              <td>example_repo</th>
+              <td>1005</th>
+              <td><img class="profile-pic" src="https://placekittens.com/64/64"/></th>
+              <td>example.user</th>
+              <td style="background-color:#ffa">1.01 days</th>
+              <td>feature/EXAMPLE-1005_example</th>
+              <td>develop</th>
+              <td>7</th>
+              <td style="background-color:#ffa">0</th>
+              <td>11</th>
+              <td>0</th>
+              <td>11</th>
+              <td>0</th>
+            </tr>            <tr>
+              <td>example_repo</th>
+              <td>1006</th>
+              <td><img class="profile-pic" src="https://placekittens.com/64/64"/></th>
+              <td>example.user</th>
+              <td style="background-color:#ffa">2.91 days</th>
+              <td>feature/EXAMPLE-1006_example</th>
+              <td>hotfix/20240109_example</th>
+              <td>4</th>
+              <td style="background-color:#ffa">0</th>
+              <td>2</th>
+              <td>0</th>
+              <td>2</th>
+              <td>0</th>
+            </tr></tbody>
+        </table>
+          <h2>Score Board</h2>
+                  <div class="scoreboard-grid">
+            <div>
+                <h3>Altruism</h3>
+                <p>(Approvals - Creations)</p>
+                <table width="100%"><thead><th>Rank</th><th colspan="3">Member</th></thead><tbody><tr><td>1</td><td><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></td><td>rewhowe</td><td>2</td></tr><tr><td>2</td><td><img class="profile-pic" src="https://placekittens.com/64/64"/></td><td>example.user</td><td>0</td></tr></tbody></table>
+            </div>
+            <div>
+                <h3>Communication</h3>
+                <p>(Num Comments)</p>
+                <table width="100%"><thead><th>Rank</th><th colspan="3">Member</th></thead><tbody><tr><td>1</td><td><img class="profile-pic" src="https://placekittens.com/64/64"/></td><td>example.user</td><td>11</td></tr><tr><td>2</td><td><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></td><td>rewhowe</td><td>0</td></tr></tbody></table>
+            </div>
+            <div>
+                <h3>Vigilance</h3>
+                <p>(Reviews / Total PR Creations)</p>
+                <table width="100%"><thead><th>Rank</th><th colspan="3">Member</th></thead><tbody><tr><td>1</td><td><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></td><td>rewhowe</td><td>1.33        <br>
+        <div style="width:300px;height:24px;background:linear-gradient(to right,#F63,#3F3)">
+            <div style="float:right;height:100%;width:0%;background:#CCC;"></div>
+        </div></td></tr><tr><td>2</td><td><img class="profile-pic" src="https://placekittens.com/64/64"/></td><td>example.user</td><td>0.67        <br>
+        <div style="width:300px;height:24px;background:linear-gradient(to right,#F63,#3F3)">
+            <div style="float:right;height:100%;width:33%;background:#CCC;"></div>
+        </div></td></tr></tbody></table>
+            </div>
+            <div>
+                <h3>Coup de Grâce</h3>
+                <p>(Approvals / Total PR Merges)</p>
+                <table width="100%"><thead><th>Rank</th><th colspan="3">Member</th></thead><tbody><tr><td>1</td><td><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></td><td>rewhowe</td><td>0.67</td></tr><tr><td>2</td><td><img class="profile-pic" src="https://placekittens.com/64/64"/></td><td>example.user</td><td>0.33</td></tr></tbody></table>
+            </div>
+        </div>
+          <h2>Individual Stats</h2>
+                      <table>
+            <thead>
+            <th colspan="4">rewhowe</th>
+            </thead>
+            <tbody>
+            <tr>
+              <td rowspan="0"><img class="profile-pic" src="https://avatars.githubusercontent.com/u/7696431?v=4"/></td>
+              <td>PRs Created</td><td>2</td>
+              <td rowspan="0">        <div style="background:#CCC;clip-path:polygon(50px 0px, 100px 50px, 50px 100px, 0px 50px);width:100px;height:100px;">
+            <div style="background:radial-gradient(#F60,#3F0,#0F0);clip-path:polygon(50px 29px, 71px 50px, 50px 71px, 48px 50px);width:100px;height:100px;"></div>
+        </div></td>
+            </tr>
+            <tr><td>PRs Reviewed</td><td>4</td><tr>
+            <tr><td>PRs Approved</td><td>4</td><tr>
+            <tr><td>Comments</td><td>0</td><tr>
+            </tbody>
+            </table>            <table>
+            <thead>
+            <th colspan="4">example.user</th>
+            </thead>
+            <tbody>
+            <tr>
+              <td rowspan="0"><img class="profile-pic" src="https://placekittens.com/64/64"/></td>
+              <td>PRs Created</td><td>2</td>
+              <td rowspan="0">        <div style="background:#CCC;clip-path:polygon(50px 0px, 100px 50px, 50px 100px, 0px 50px);width:100px;height:100px;">
+            <div style="background:radial-gradient(#F60,#3F0,#0F0);clip-path:polygon(50px 29px, 62px 50px, 50px 62px, 37px 50px);width:100px;height:100px;"></div>
+        </div></td>
+            </tr>
+            <tr><td>PRs Reviewed</td><td>2</td><tr>
+            <tr><td>PRs Approved</td><td>2</td><tr>
+            <tr><td>Comments</td><td>11</td><tr>
+            </tbody>
+            </table>
+          <h2>Available Metrics</h2>
+          N/A
+          <h2>About</h2>
+          <ul>
+            <li>This tracks code review activity for each week across several repositories.</li>
+            <li>Comments and review on one's own PR are not counted.</li>
+            <li>Comment replies are not counted.</li>
+            <li>Approvals count even if they're lost when the PR is updated.</li>
+            <li>Activity is not counted for PRs which have not been updated for &gt; 2 weeks.</li>
+          </ul>
+        </body>
+        </html>
